@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/alrya/AndroidStudioProjects/azantime/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1835" />
+        <entry key="..\:/Users/alrya/AndroidStudioProjects/azantime/app/src/main/res/drawable/seatch_edittext_background.xml" value="0.1835" />
         <entry key="..\:/Users/alrya/AndroidStudioProjects/azantime/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/alrya/AndroidStudioProjects/azantime/app/src/main/res/layout/fragment_1.xml" value="0.2359375" />
         <entry key="..\:/Users/alrya/AndroidStudioProjects/azantime/app/src/main/res/layout/fragment_fragments_search.xml" value="0.16197916666666667" />

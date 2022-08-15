@@ -1,11 +1,11 @@
-package com.example.azantime
+package com.example.azantime.UI
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.azantime.databinding.MainFragment2Binding
+import com.example.azantime.R
 import com.example.azantime.databinding.SearchFragment1Binding
 
 class search_fragment1: Fragment(R.layout.search_fragment1) {
@@ -17,9 +17,9 @@ class search_fragment1: Fragment(R.layout.search_fragment1) {
     ): View? {
         binding = SearchFragment1Binding.inflate(inflater,container,false)
 
-binding.searchCityBtn.setOnClickListener{
-    replaceFragment(main_fragment2())
-}
+        binding.searchCityBtn.setOnClickListener{
+        replaceFragment(main_fragment2())
+        }
 
 
 
@@ -27,7 +27,10 @@ binding.searchCityBtn.setOnClickListener{
         return binding.root
     }
     private fun replaceFragment (fragment : Fragment){
-
+        //Send the city to "main_fragment2" to display it on the UI
+         val bundle = Bundle()
+        bundle.putString("CITY",binding.searchCity.text.toString())
+        fragment.arguments = bundle
 
             val fragmentTransaction = fragmentManager?.beginTransaction()
         fragmentTransaction?.replace(R.id.fragment_container,fragment)
