@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/alrya/AndroidStudioProjects/azantime/app/src/main/res/drawable/btn_background.xml" value="0.155" />
         <entry key="..\:/Users/alrya/AndroidStudioProjects/azantime/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1835" />
+        <entry key="..\:/Users/alrya/AndroidStudioProjects/azantime/app/src/main/res/drawable/layout_background.xml" value="0.155" />
         <entry key="..\:/Users/alrya/AndroidStudioProjects/azantime/app/src/main/res/drawable/seatch_edittext_background.xml" value="0.1835" />
         <entry key="..\:/Users/alrya/AndroidStudioProjects/azantime/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/alrya/AndroidStudioProjects/azantime/app/src/main/res/layout/fragment_1.xml" value="0.2359375" />
         <entry key="..\:/Users/alrya/AndroidStudioProjects/azantime/app/src/main/res/layout/fragment_fragments_search.xml" value="0.16197916666666667" />
-        <entry key="..\:/Users/alrya/AndroidStudioProjects/azantime/app/src/main/res/layout/main_fragment2.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/alrya/AndroidStudioProjects/azantime/app/src/main/res/layout/main_fragment2.xml" value="0.25" />
         <entry key="..\:/Users/alrya/AndroidStudioProjects/azantime/app/src/main/res/layout/search_fragment.xml" value="0.2568359375" />
         <entry key="..\:/Users/alrya/AndroidStudioProjects/azantime/app/src/main/res/layout/search_fragment1.xml" value="0.25" />
         <entry key="..\:/Users/alrya/AndroidStudioProjects/azantime/app/src/main/res/layout/search_fragments1.xml" value="0.24895833333333334" />

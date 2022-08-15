@@ -1,6 +1,6 @@
 package com.example.azantime.model
 
-import com.example.azantime.UI.salaAPI
+import com.example.azantime.API.salaAPI
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

@@ -1,4 +1,4 @@
-package com.example.azantime.UI
+package com.example.azantime.API
 
 import com.example.azantime.model.State
 import com.example.azantime.model.solat
