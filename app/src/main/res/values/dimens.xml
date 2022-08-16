@@ -17,7 +17,18 @@
     <dimen name="view_height">1.5dp</dimen>
     <dimen name="view_margin_bottom8">8dp</dimen>
     <dimen name="time_margin_start">32dp</dimen>
+    <dimen name="Animation_margin_top">32dp</dimen>
     <dimen name="Constraint_layout_padding16">16dp</dimen>
     <dimen name="Constraint_layout_padding32">32dp</dimen>
     <dimen name="animation_size">150dp</dimen>
+    <dimen name="azan_time_text_size_56">56sp</dimen>
+    <dimen name="azan_time_text_margin_top">100dp</dimen>
+    <dimen name="Animation_size200">200dp</dimen>
+    <dimen name="too_small_text_size12">12sp</dimen>
+    <dimen name="search_city_edtText_height50">50dp</dimen>
+    <dimen name="search_city_margin32">32dp</dimen>
+    <dimen name="padding_start16">16dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="button_width100">100dp</dimen>
+    <dimen name="button_height_50">50dp</dimen>
 </resources>

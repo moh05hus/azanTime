@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.azantime.R
-import com.example.azantime.UI.main_fragment2
 import com.example.azantime.databinding.SearchFragment1Binding
 
 class search_fragment1: Fragment(R.layout.search_fragment1) {
@@ -19,7 +18,7 @@ class search_fragment1: Fragment(R.layout.search_fragment1) {
         binding = SearchFragment1Binding.inflate(inflater,container,false)
 
         binding.searchCityBtn.setOnClickListener{
-        replaceFragment(main_fragment2())
+        replaceFragment(MainFragment())
         }
 
 

@@ -10,12 +10,11 @@ import com.example.azantime.R
 import com.example.azantime.databinding.MainFragment2Binding
 import com.example.azantime.model.Item
 import com.example.azantime.model.State
-import com.example.azantime.model.salatRepo
-import com.example.azantime.model.solat
+import com.example.azantime.API.salatRepo
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
-class main_fragment2 : Fragment(R.layout.main_fragment2) {
+class MainFragment : Fragment(R.layout.main_fragment2) {
 
     lateinit var binding: MainFragment2Binding
 
@@ -106,7 +105,7 @@ class main_fragment2 : Fragment(R.layout.main_fragment2) {
 
         }
     }
-    // Edit text in ui from API
+
     private fun viewOnUI(salat: Item,city: String) {
         binding.apply {
             alfajrTimeTv.text = salat.fajr

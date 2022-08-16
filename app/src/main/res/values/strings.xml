@@ -8,4 +8,7 @@
     <string name="azan_time_in">azan time in</string>
     <string name="date">date</string>
     <string name="city_not_found">City not found</string>
+    <string name="enter_the_city">Enter the city</string>
+    <string name="enter_the_name_of_the_city_to_show_the_time_of_the_azan_in_it">*Enter the name of the city to show the time of the azan in it</string>
+    <string name="azan_time">azan time</string>
 </resources>
