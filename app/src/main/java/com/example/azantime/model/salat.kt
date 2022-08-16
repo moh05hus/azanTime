@@ -3,7 +3,7 @@ package com.example.azantime.model
 
 import com.google.gson.annotations.SerializedName
 
-data class solat(
+data class salat(
     @SerializedName("address")
     val address: String,
     @SerializedName("city")

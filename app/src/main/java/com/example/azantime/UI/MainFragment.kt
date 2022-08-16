@@ -10,7 +10,7 @@ import com.example.azantime.R
 import com.example.azantime.databinding.MainFragment2Binding
 import com.example.azantime.model.Item
 import com.example.azantime.model.State
-import com.example.azantime.API.salatRepo
+import com.example.azantime.API.SalatRepo
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
@@ -47,7 +47,7 @@ class MainFragment : Fragment(R.layout.main_fragment2) {
 
     private fun getSalat(city: String) {
             lifecycleScope.launch(Dispatchers.Main) {
-                salatRepo().getSalat(city).collect {
+                SalatRepo().getSalat(city).collect {
                     when (it) {
                         is State.Fail -> onFail()
                         State.Loading -> onLoading()
