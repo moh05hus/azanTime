@@ -16,6 +16,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 class main_fragment2 : Fragment(R.layout.main_fragment2) {
+
     lateinit var binding: MainFragment2Binding
 
     override fun onCreateView(
@@ -23,13 +24,14 @@ class main_fragment2 : Fragment(R.layout.main_fragment2) {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
         binding = MainFragment2Binding.inflate(inflater, container, false)
 
-        // get cite from search fragment and but city in the value
         val city = arguments?.getString("CITY").toString()
         getSalat(city)
 
-        // on back btn clicked wll be go to search fragment
+        hideData()
+
         binding.backBtn.setOnClickListener {
             replaceFragment(search_fragment1())
         }
@@ -37,7 +39,7 @@ class main_fragment2 : Fragment(R.layout.main_fragment2) {
 
         return binding.root
     }
-    // to replace any fragment do you want latter
+
     private fun replaceFragment(fragment: Fragment) {
         val fragmentTransaction = fragmentManager?.beginTransaction()
         fragmentTransaction?.replace(R.id.fragment_container, fragment)
@@ -57,47 +59,55 @@ class main_fragment2 : Fragment(R.layout.main_fragment2) {
             }
 
     }
+
     private fun onFail (){
         showErrorAndHideData()
     }
+
     private fun onLoading(){
         showProgressBarAndHideData()
     }
+
     private fun onSuccess(){
         hideProgressBarAndShowData()
 
     }
     private fun showErrorAndHideData() {
         binding.apply {
-          errorAnimation.visibility = View.VISIBLE
+            errorAnimation.visibility = View.VISIBLE
             citeNotFoundText.visibility =View.VISIBLE
             constraintLayout.visibility = View.INVISIBLE
-            cityTv.visibility = View.INVISIBLE
-            dateTv.visibility = View.INVISIBLE
+            progressBarMainFragment.visibility = View.INVISIBLE
+
         }
 
+    }
+
+    private fun hideData() {
+        binding.apply {
+            constraintLayout.visibility = View.INVISIBLE
+
+        }
     }
 
     private fun showProgressBarAndHideData() {
         binding.apply {
             progressBarMainFragment.visibility = View.VISIBLE
             constraintLayout.visibility = View.INVISIBLE
-            cityTv.visibility = View.INVISIBLE
-            dateTv.visibility = View.INVISIBLE
+
         }
     }
+
 
     private fun hideProgressBarAndShowData() {
         binding.apply {
             progressBarMainFragment.visibility = View.INVISIBLE
             constraintLayout.visibility = View.VISIBLE
-            cityTv.visibility = View.VISIBLE
-            dateTv.visibility = View.VISIBLE
+
         }
     }
-
+    // Edit text in ui from API
     private fun viewOnUI(salat: Item,city: String) {
-        //Edit text in ui from API
         binding.apply {
             alfajrTimeTv.text = salat.fajr
             alzuhrTimeTv.text = salat.dhuhr

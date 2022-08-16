@@ -28,9 +28,9 @@ class search_fragment1: Fragment(R.layout.search_fragment1) {
         return binding.root
     }
     private fun replaceFragment (fragment : Fragment){
-        //Send the city to "main_fragment2" to display it on the UI
+
          val bundle = Bundle()
-        bundle.putString("CITY",binding.searchCity.text.toString())
+        bundle.putString("CITY",binding.searchCity.text.trim().toString())
         fragment.arguments = bundle
 
             val fragmentTransaction = fragmentManager?.beginTransaction()

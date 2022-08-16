@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="medium_text_size">20sp</dimen>
+    <dimen name="small_text_size">16sp</dimen>
+    <dimen name="salat_text_size">32sp</dimen>
+    <dimen name="time_text_size">32sp</dimen>
+    <dimen name="big_text_size">64sp</dimen>
+    <dimen name="small_text_size_24">24sp</dimen>
+    <dimen name="constraint_height">630dp</dimen>
+    <dimen name="image_button_size">40dp</dimen>
+    <dimen name="margin_top_image_button">13dp</dimen>
+    <dimen name="margin_start_image_button">8dp</dimen>
+    <dimen name="Progress_bar_size">80dp</dimen>
+    <dimen name="text_margin">70sp</dimen>
+    <dimen name="text_margin_26">26dp</dimen>
+    <dimen name="view_width">270dp</dimen>
+    <dimen name="view_height">1.5dp</dimen>
+    <dimen name="view_margin_bottom8">8dp</dimen>
+    <dimen name="time_margin_start">32dp</dimen>
+    <dimen name="Constraint_layout_padding16">16dp</dimen>
+    <dimen name="Constraint_layout_padding32">32dp</dimen>
+    <dimen name="animation_size">150dp</dimen>
+</resources>

@@ -2,4 +2,10 @@
     <string name="app_name">azan time</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="alfajr">alfajr   :</string>
+    <string name="time">time</string>
+    <string name="city">city</string>
+    <string name="azan_time_in">azan time in</string>
+    <string name="date">date</string>
+    <string name="city_not_found">City not found</string>
 </resources>
